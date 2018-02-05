@@ -1,38 +1,79 @@
-Role Name
-=========
+# challenge
 
-A brief description of the role goes here.
+#### Table of Contents
 
-Requirements
-------------
+1. [Overview](#overview)
+2. [Module Description - What the module does and why it is useful](#module-description)
+3. [Setup - The basics of getting started with challenge](#setup)
+    * [What challenge affects](#what-challenge-affects)
+    * [Setup requirements](#setup-requirements)
+    * [Beginning with challenge](#beginning-with-challenge)
+4. [Usage - Configuration options and additional functionality](#usage)
+5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
+5. [Limitations - OS compatibility, etc.](#limitations)
+6. [Development - Guide for contributing to the module](#development)
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+## Overview
 
-Role Variables
---------------
+A one-maybe-two sentence summary of what the module does/what problem it solves.
+This is your 30 second elevator pitch for your module. Consider including
+OS/Puppet version it works with.
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+## Module Description
 
-Dependencies
-------------
+If applicable, this section should have a brief description of the technology
+the module integrates with and what that integration enables. This section
+should answer the questions: "What does this module *do*?" and "Why would I use
+it?"
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+If your module has a range of functionality (installation, configuration,
+management, etc.) this is the time to mention it.
 
-Example Playbook
-----------------
+## Setup
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+### What challenge affects
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+* A list of files, packages, services, or operations that the module will alter,
+  impact, or execute on the system it's installed on.
+* This is a great place to stick any warnings.
+* Can be in list or paragraph form.
 
-License
--------
+### Setup Requirements **OPTIONAL**
 
-BSD
+If your module requires anything extra before setting up (pluginsync enabled,
+etc.), mention it here.
 
-Author Information
-------------------
+### Beginning with challenge
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+The very basic steps needed for a user to get the module up and running.
+
+If your most recent release breaks compatibility or requires particular steps
+for upgrading, you may wish to include an additional section here: Upgrading
+(For an example, see http://forge.puppetlabs.com/puppetlabs/firewall).
+
+## Usage
+
+Put the classes, types, and resources for customizing, configuring, and doing
+the fancy stuff with your module here.
+
+## Reference
+
+Here, list the classes, types, providers, facts, etc contained in your module.
+This section should include all of the under-the-hood workings of your module so
+people know what the module is touching on their system but don't need to mess
+with things. (We are working on automating this section!)
+
+## Limitations
+
+This is where you list OS compatibility, version compatibility, etc.
+
+## Development
+
+Since your module is awesome, other users will want to play with it. Let them
+know what the ground rules for contributing are.
+
+## Release Notes/Contributors/Etc **Optional**
+
+If you aren't using changelog, put your release notes here (though you should
+consider using changelog). You may also add any additional sections you feel are
+necessary or important to include here. Please use the `## ` header.
